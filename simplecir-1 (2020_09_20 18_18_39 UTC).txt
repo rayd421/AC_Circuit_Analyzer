@@ -1,0 +1,13 @@
+# This is a simple circuit
+# it is real dumb for now
+#
+F 1e8
+V1 15.0 ar gnd
+R1 2 ar b
+R2 20  b  c
+R3 10 c gnd
+R4 5 c d
+R5 2 d rd
+V2 7 rd gnd
+C6 2e-6 b d
+e
